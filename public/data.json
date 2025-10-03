@@ -120,10 +120,7 @@
         "5": "Rien n'est plus proche de l'absolu qu'un amour en train de naître (Jean d'Ormesson)",
         "6": "Ce qui a des ailes + des plumes/poils",
         "7": { "label": "Julie ! Ahah ////  Dieu", "media": "" },
-        "8": {
-          "label": "Une taie d'oreiller qui vient de chez ma Mamie. Elle est avec moi dans cette maison, chuuuut !!! C'est secret (je parle de la taie, pas de ma Mamie)",
-          "media": ""
-        },
+        "8": { "label": "Une taie d'oreiller qui vient de chez ma Mamie. Elle est avec moi dans cette maison, chuuuut !!! C'est secret (je parle de la taie, pas de ma Mamie)", "media": "" },
         "9": "Un chat",
         "10": "Le Smecta (ancienne formule)",
         "11": { "label": "Ophélie Winter - Shame on You", "media": "" },
@@ -333,16 +330,10 @@
           "label": "Je ne souhaite pas dîner avec une célébrité, zéro motivation.",
           "media": ""
         },
-        "8": {
-          "label": "J'en ai pas vraiment de souvenirs, mais ma mère me parle d'un Winnie l'Ourson et d'un Gorille (aucun lien).",
-          "media": ""
-        },
+        "8": { "label": "J'en ai pas vraiment de souvenirs, mais ma mère me parle d'un Winnie l'Ourson et d'un Gorille (aucun lien).", "media": "" },
         "9": "Un chat bien évidemment.",
         "10": "Alors là, aucune idée... Faudrait demander à Julie ou aux autres gens qui me fréquentent",
-        "11": {
-          "label": "L'avantage d'être vieux, c'est que l'on prend du recul, j'ai pas de honte particulière par rapport à mes goûts musicaux 😂",
-          "media": ""
-        },
+        "11": { "label": "L'avantage d'être vieux, c'est que l'on prend du recul, j'ai pas de honte particulière par rapport à mes goûts musicaux 😂", "media": "" },
         "12": { "label": "Earth, Wind and Fire - September", "media": "" },
         "13": ["nz_sibling.jpg", "nz_sibling2.jpg"],
         "14": "nz_childhood.jpg"

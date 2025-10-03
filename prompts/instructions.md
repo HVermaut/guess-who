@@ -79,7 +79,7 @@ Julie a la possibilité de changer les réponses attribuées à un participant a
 Les réponses doivent être sauvegardé dans le fichier `data.json`dans la partie `julieResponses` et pouvoir être mise à jour si Julie change la réponse.
 
 De base, les photos des participants sont ronde avec un contour de 4px de couleur #F79F1F.
-Lorsqu'une réponse est attribuée à un participant, le contour doit devenir #ED4C67.
+Lorsqu'une réponse est attribuée à un participant, le contour change et doit devenir #ED4C67 et le rester jusqu'à ce que toute est été sélectionné.
 
 Lorsque toutes les réponses de la question ont été attribuées, il faut afficher un bouton "Vérifier les réponses" qui emmène sur la page suivante qui affiche les photos de profil avec un contour de 4px #C4E538 pour les bonnes réponses et un contour de 4px #EA2027 pour les mauvaises réponses. À côté de chaque réponse doit être notée la bonne réponse.
 En bas de cette page, il faut afficher un bouton "Question suivante".
