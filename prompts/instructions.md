@@ -31,7 +31,7 @@ Je leur ai demandé de m'envoyer 4 photos chacun :
 
 Je veux créer une application qui permette à Julie de sélectionner à chacune des questions à qui elle attribue la réponse.
 Pour les chansons, je veux pouvoir cliquer sur le titre et avoir un extrait de cette chanson.
-Pour les films et séries, je veux pouvoir mettre un ou plusieurs extraits YouTube.
+Pour les films et séries, je veux pouvoir mettre une ou plusieurs images.
 
 A la fin de chaque question, Julie doit pouvoir cliquer sur un bouton valider afin de confirmer ses réponses.
 On doit voir les bonnes et les mauvaises réponses.
@@ -87,9 +87,9 @@ Ce bouton doit avoir comme typographie "Bitcount Prop Single Ink" et un fond arc
 
 Il faut répéter ces actions jusqu'à épuisement des questions.
 
-Pour les questions qui font référence à des films ou des séries, sous la question je veux la possibilité de voir un extrait de film ou série qui seront des liens YouTube à intégrer directement dans l'application.
+Pour les questions qui font référence à des films ou des séries, sous la question je veux la possibilité de voir les images corréspondantes.
 
-Pour les questions qui concernent des chansons, je veux pouvoir également lancer la chanson via un lien YouTube intégré.
+Pour les questions qui concernent des chansons, je veux pouvoir également lancer la chanson via un fichier mp4.
 
 A la fin des questions, il faut arriver sur un écran composé d'une grande photo et d'un bouton avec le label "Voir les résultats".
 Le bouton doit faire au minimum 600px de large pour au minimum 200px. La taille du texte doit faire 50px en typo Bitcount Prop Single Ink qui est une Google Font. Le fond du bouton doit être arc-en-ciel.
