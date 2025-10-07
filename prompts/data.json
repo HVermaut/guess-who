@@ -392,18 +392,32 @@
         "childhood": "francois_childhood.jpg"
       },
       "answers": {
-        "1": "francois",
-        "2": [],
-        "3": [],
-        "4": "francois",
-        "5": "francois",
-        "6": "francois",
-        "7": { "label": "", "media": "" },
-        "8": { "label": "", "media": "" },
-        "9": "francois",
-        "10": "francois",
-        "11": { "label": "", "media": "" },
-        "12": { "label": "", "media": "" },
+        "1": "Chili con carne",
+        "2": [
+          {
+            "label": "Aucun",
+            "media": ""
+          },
+          { "label": "Aucun", "media": "" },
+          { "label": "Aucun", "media": "" }
+        ],
+        "3": [
+          {
+            "label": "Sons of anarchy",
+            "media": ""
+          },
+          { "label": "Power", "media": "" },
+          { "label": "Leftovers", "media": "" }
+        ],
+        "4": "François",
+        "5": "T'es pas le couteaux le plus aiguisé du tiroir ",
+        "6": "Arriver en retard a l'apéro",
+        "7": { "label": "Personne", "media": "" },
+        "8": { "label": "Jai po", "media": "" },
+        "9": "Un pigeon",
+        "10": "Sandwich belin",
+        "11": { "label": "Je n'ai pas honte des chansons que j'écoute.", "media": "" },
+        "12": { "label": "Jsais pas", "media": "" },
         "13": ["francois_sibling.jpg"],
         "14": "francois_childhood.jpg"
       }

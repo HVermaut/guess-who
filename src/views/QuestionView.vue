@@ -246,12 +246,6 @@ const goToValidation = () => {
 const isValidMedia = (media) => {
   if (!media) return false
   if (typeof media === 'string' && media.trim() === '') return false
-  // Pour la question 8, vérifier si c'est un chemin de fichier et pas juste du texte
-  if (questionId.value === '8' && typeof media === 'string') {
-    // Si ça contient une extension de fichier, c'est un média valide
-    const hasImageExtension = /\.(jpg|jpeg|png|gif|webp)$/i.test(media)
-    return hasImageExtension
-  }
   return true
 }
 
@@ -307,23 +301,27 @@ const getMediaPath = (mediaPath) => {
   // Vérifier si le fichier a déjà une extension
   const hasExtension = /\.(jpg|jpeg|png|gif|webp|mp4|webm|ogg)$/i.test(mediaPath)
 
-  // Déterminer le sous-dossier en fonction du type de question
-  // SEULEMENT pour les questions 2 (films) et 3 (séries)
-  let folder = ''
+  // Déterminer le dossier en fonction du type de question et de l'extension
+  let folder = 'pictures/'
+
   if (questionId.value === '2') {
-    folder = 'films/'
+    // Question 2: Films dans /pictures/films/
+    folder = 'pictures/films/'
   } else if (questionId.value === '3') {
-    folder = 'series/'
+    // Question 3: Séries dans /pictures/series/
+    folder = 'pictures/series/'
+  } else if (hasExtension && mediaPath.match(/\.(mp4|webm|ogg)$/i)) {
+    // Si c'est un fichier audio/vidéo (questions 11, 12), utiliser /musics/
+    folder = 'musics/'
   }
-  // Pour toutes les autres questions (8, 13, 14, etc.), pas de sous-dossier
 
   // Si le fichier a déjà une extension, l'utiliser tel quel
   let finalPath
   if (hasExtension) {
     finalPath = `${folder}${mediaPath}`
   } else {
-    // Si pas d'extension, c'est forcément pour les films/séries (questions 2 et 3)
-    // Liste des fichiers qui sont en .webp (basé sur votre dossier)
+    // Si pas d'extension, c'est pour les films/séries (questions 2 et 3)
+    // Détecter .webp ou .jpg
     const webpFiles = [
       'the_holiday',
       'monstres_et_cie',
@@ -348,12 +346,12 @@ const getMediaPath = (mediaPath) => {
       'urgences',
     ]
 
-    const ext = webpFiles.includes(mediaPath) ? 'webp' : 'jpg'
-    finalPath = `${folder}${mediaPath}.${ext}`
+    const ext = webpFiles.includes(mediaPath) ? '.webp' : '.jpg'
+    finalPath = `${folder}${mediaPath}${ext}`
   }
 
-  // Ajouter le préfixe /pictures/
-  return `/pictures/${finalPath}`
+  // Ajouter le préfixe /
+  return `/${finalPath}`
 }
 
 // Obtenir le chemin de la photo du participant

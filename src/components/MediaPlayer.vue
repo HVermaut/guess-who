@@ -44,8 +44,6 @@
           <span v-else>🔊</span>
         </button>
       </div>
-
-      <p v-if="title" class="media-title">{{ title }}</p>
     </div>
 
     <div v-else-if="type === 'image'" class="image-container">
