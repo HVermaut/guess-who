@@ -141,18 +141,39 @@ const validateAnswers = () => {
     correctAnswersMap[index] = answer.userId
   })
 
+  // Créer un map pour regrouper les participants qui ont donné la même réponse
+  // Format: { "reponse_text": ["userId1", "userId2", ...] }
+  const responseGroups = {}
+  shuffledAnswers.forEach((answer) => {
+    // Normaliser le texte de la réponse pour la comparaison (trim, lowercase)
+    const normalizedText = answer.text.trim().toLowerCase()
+    if (!responseGroups[normalizedText]) {
+      responseGroups[normalizedText] = []
+    }
+    responseGroups[normalizedText].push(answer.userId)
+  })
+
   // Comparer et créer les résultats
   const results = []
   shuffledAnswers.forEach((answer, index) => {
     const julieUserId = julieResponses[index]
     const correctUserId = answer.userId
-    const isCorrect = julieUserId === correctUserId
+
+    // Normaliser la réponse pour trouver le groupe
+    const normalizedText = answer.text.trim().toLowerCase()
+    const validUserIds = responseGroups[normalizedText] || [correctUserId]
+
+    // La réponse est correcte si Julie a sélectionné N'IMPORTE QUEL participant du groupe
+    const isCorrect = validUserIds.includes(julieUserId)
 
     results.push({
       answer: answer,
       isCorrect: isCorrect,
       julieParticipant: participants.value.find((p) => p.id === julieUserId),
       correctParticipant: participants.value.find((p) => p.id === correctUserId),
+      validParticipants: validUserIds
+        .map((id) => participants.value.find((p) => p.id === id))
+        .filter(Boolean),
     })
   })
 
