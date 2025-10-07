@@ -1,0 +1,160 @@
+/* Imports */
+@import './colors.css';
+@import './fonts.css';
+
+/* Reset et styles globaux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Animations utilitaires */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Utilitaires de scroll smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Préchargement d'images */
+.preload-images {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Support du mode sombre (optionnel) */
+@media (prefers-color-scheme: dark) {
+  /* Peut être activé plus tard si nécessaire */
+}
+
+/* Amélioration de l'accessibilité */
+*:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 3px;
+}
+
+/* Suppression du tap highlight sur mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Amélioration des touches tactiles */
+button,
+a,
+.clickable {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Performance avec will-change */
+.animated {
+  will-change: transform, opacity;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  /* Ajustements de taille de texte globaux */
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* Support des orientations */
+@media (orientation: landscape) and (max-height: 500px) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+/* Optimisation pour les écrans haute résolution */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Les images seront automatiquement optimisées par le navigateur */
+}
+
+/* Animations réduites pour les utilisateurs qui le préfèrent */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

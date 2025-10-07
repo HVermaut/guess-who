@@ -30,7 +30,7 @@
     },
     {
       "id": "8",
-      "text": "Ton doudou quand tu étais petit ? M'envoyer une photo si possible"
+      "text": "Ton doudou quand tu étais petit ?"
     },
     {
       "id": "9",
@@ -70,14 +70,14 @@
       "answers": {
         "1": "Pâtes carbo",
         "2": [
-          { "label": "Erin Brockovich", "media": "" },
-          { "label": "les figures de l'ombre", "media": "" },
-          { "label": "le diable s'habille en Prada", "media": "" }
+          { "label": "Erin Brockovich", "media": "erin_brockovich" },
+          { "label": "les figures de l'ombre", "media": "les_figures_de_l_ombre" },
+          { "label": "le diable s'habille en Prada", "media": "le_diable_s_habille_en_prada" }
         ],
         "3": [
-          { "label": "Friends", "media": "" },
-          { "label": "Dr House", "media": "" },
-          { "label": "Mentalist", "media": "" }
+          { "label": "Friends", "media": "friends" },
+          { "label": "Dr House", "media": "dr_house" },
+          { "label": "Mentalist", "media": "mentalist" }
         ],
         "4": "Midjo",
         "5": "C'est le champignon sur la serviette",
@@ -107,20 +107,23 @@
       "answers": {
         "1": "Pâtes crème fraîche lardons",
         "2": [
-          { "label": "Entretien avec un vampire", "media": "" },
-          { "label": "La belle et la bête", "media": "" },
-          { "label": "Battle Royale", "media": "" }
+          { "label": "Entretien avec un vampire", "media": "entretien_avec_un_vampire" },
+          { "label": "La belle et la bête", "media": "la_belle_et_la_bete" },
+          { "label": "Battle Royale", "media": "battle_royale" }
         ],
         "3": [
-          { "label": "Desperate Housewives", "media": "" },
-          { "label": "Pretty Little Liars", "media": "" },
-          { "label": "Buffy contre les vampires", "media": "" }
+          { "label": "Desperate Housewives", "media": "desperate_housewives" },
+          { "label": "Pretty Little Liars", "media": "pretty_little_liars" },
+          { "label": "Buffy contre les vampires", "media": "buffy_contre_les_vampires" }
         ],
         "4": "Bouffe-tout",
         "5": "Rien n'est plus proche de l'absolu qu'un amour en train de naître (Jean d'Ormesson)",
         "6": "Ce qui a des ailes + des plumes/poils",
         "7": { "label": "Julie ! Ahah ////  Dieu", "media": "" },
-        "8": { "label": "Une taie d'oreiller qui vient de chez ma Mamie. Elle est avec moi dans cette maison, chuuuut !!! C'est secret (je parle de la taie, pas de ma Mamie)", "media": "" },
+        "8": {
+          "label": "Une taie d'oreiller qui vient de chez ma Mamie. Elle est avec moi dans cette maison, chuuuut !!! C'est secret (je parle de la taie, pas de ma Mamie)",
+          "media": ""
+        },
         "9": "Un chat",
         "10": "Le Smecta (ancienne formule)",
         "11": { "label": "Ophélie Winter - Shame on You", "media": "" },
@@ -135,31 +138,31 @@
       "photos": {
         "profile": "benoit_profile.jpg",
         "doudou": "benoit_doudou.jpg",
-        "sibling": ["benoit_sibling.jpg"],
+        "sibling": [],
         "childhood": "benoit_childhood.jpg"
       },
       "answers": {
         "1": "Pâtes au pesto",
         "2": [
-          { "label": "Les premiers jours du reste de ta vie", "media": "" },
-          { "label": "Truman Show", "media": "" },
-          { "label": "Forrest Gump", "media": "" }
+          { "label": "Les premiers jours du reste de ta vie", "media": "premier_jour_reste_vie" },
+          { "label": "Truman Show", "media": "truman_show" },
+          { "label": "Forrest Gump", "media": "forrest_gump" }
         ],
         "3": [
-          { "label": "Game of Thrones", "media": "" },
-          { "label": "Breaking Bad", "media": "" },
-          { "label": "House of Cards", "media": "" }
+          { "label": "Game of Thrones", "media": "game_of_thrones" },
+          { "label": "Breaking Bad", "media": "breaking_bad" },
+          { "label": "House of Cards", "media": "house_of_cards" }
         ],
         "4": "Boubou",
         "5": "Choisir c'est renoncer.",
         "6": "Hémétophobie",
         "7": { "label": "Mort : Coluche / Vivant : Franck Thilliez", "media": "" },
-        "8": { "label": "Un popples ballon de foot américain (photo à venir)", "media": "" },
+        "8": { "label": "Un popples ballon de foot américain", "media": "" },
         "9": "Chat",
         "10": "Tremper la mimolette dans la Danette",
         "11": { "label": "Le jerk", "media": "" },
         "12": { "label": "Je t'emmène au vent (Louise Attaque)", "media": "" },
-        "13": ["benoit_sibling.jpg"],
+        "13": [],
         "14": "benoit_childhood.jpg"
       }
     },
@@ -175,14 +178,14 @@
       "answers": {
         "1": "Des crêpes",
         "2": [
-          { "label": "Save the Last Dance", "media": "" },
-          { "label": "The Holiday", "media": "" },
-          { "label": "Monstres et Cie", "media": "" }
+          { "label": "Save the Last Dance", "media": "save_the_last_dance" },
+          { "label": "The Holiday", "media": "the_holiday" },
+          { "label": "Monstres et Cie", "media": "monstres_et_cie" }
         ],
         "3": [
-          { "label": "Les Frères Scott", "media": "" },
-          { "label": "Urgences", "media": "" },
-          { "label": "Grey's Anatomy", "media": "" }
+          { "label": "Les Frères Scott", "media": "les_freres_scott" },
+          { "label": "Urgences", "media": "urgences" },
+          { "label": "Grey's Anatomy", "media": "greys_anatomy" }
         ],
         "4": "Patate",
         "5": "La vie, ce n'est pas d'attendre que l'orage passe, c'est apprendre à danser sous la pluie.",
@@ -212,14 +215,14 @@
       "answers": {
         "1": "Pierogi (raviolis polonais)",
         "2": [
-          { "label": "Labyrinthe (avec David Bowie)", "media": "" },
-          { "label": "Hunger Games", "media": "" },
-          { "label": "Jurassic Park", "media": "" }
+          { "label": "Labyrinthe (avec David Bowie)", "media": "labyrinth" },
+          { "label": "Hunger Games", "media": "hunger_games" },
+          { "label": "Jurassic Park", "media": "jurassic_park" }
         ],
         "3": [
-          { "label": "Friends", "media": "" },
-          { "label": "Charmed", "media": "" },
-          { "label": "Bridgerton", "media": "" }
+          { "label": "Friends", "media": "friends" },
+          { "label": "Charmed", "media": "charmed" },
+          { "label": "La chronique des Bridgerton", "media": "bridgerton" }
         ],
         "4": "Boubou",
         "5": "Il y a baleine sous gravillon",
@@ -239,27 +242,27 @@
       "name": "Dobbelaere Erwann",
       "photos": {
         "profile": "erwann_profile.jpg",
-        "doudou": "erwann_doudou.jpg",
+        "doudou": "",
         "sibling": ["erwann_sibling.jpg"],
         "childhood": "erwann_childhood.jpg"
       },
       "answers": {
         "1": "Pâtes carbonara",
         "2": [
-          { "label": "Bodyguard", "media": "" },
-          { "label": "Titanic", "media": "" },
-          { "label": "Pocahontas", "media": "" }
+          { "label": "Bodyguard", "media": "bodyguard" },
+          { "label": "Titanic", "media": "titanic" },
+          { "label": "Pocahontas", "media": "pocahontas" }
         ],
         "3": [
-          { "label": "Bridgerton", "media": "" },
-          { "label": "Outlander", "media": "" },
-          { "label": "Dynastie", "media": "" }
+          { "label": "La chronique des Bridgerton", "media": "bridgerton" },
+          { "label": "Outlander", "media": "outlander" },
+          { "label": "Dynastie", "media": "dynastie" }
         ],
         "4": "Dobby",
         "5": "Ohana signifie famille. Famille signifie que personne ne doit être abandonné ni oublié",
         "6": "Orage",
         "7": { "label": "Aya Nakamura", "media": "" },
-        "8": { "label": "Pompon & Pepette (Pas de photos)", "media": "" },
+        "8": { "label": "Pompon & Pepette", "media": "" },
         "9": "Un chat",
         "10": "Tremper du pain dans un yaourt nature sucré",
         "11": { "label": "Sheryfa Luna - Il avait les mots", "media": "" },
@@ -280,14 +283,14 @@
       "answers": {
         "1": "Couscous",
         "2": [
-          { "label": "Pretty Woman", "media": "" },
-          { "label": "La Liste de Schindler", "media": "" },
-          { "label": "La Proposition", "media": "" }
+          { "label": "Pretty Woman", "media": "pretty_woman" },
+          { "label": "La Liste de Schindler", "media": "la_liste_de_schindler" },
+          { "label": "La Proposition", "media": "la_proposition" }
         ],
         "3": [
-          { "label": "Friends", "media": "" },
-          { "label": "Bridgerton", "media": "" },
-          { "label": "Madame est servie", "media": "" }
+          { "label": "Friends", "media": "friends" },
+          { "label": "La chronique des Bridgerton", "media": "bridgerton" },
+          { "label": "Madame est servie", "media": "madame_est_servie" }
         ],
         "4": "Mimo",
         "5": "La seule chose qui ne change pas c'est le changement",
@@ -307,21 +310,21 @@
       "name": "NZ",
       "photos": {
         "profile": "nz_profile.jpg",
-        "doudou": "nz_doudou.jpg",
-        "sibling": ["nz_sibling.jpg", "nz_sibling2.jpg"],
+        "doudou": "",
+        "sibling": ["nz_sibling.jpg", "nz_sibling-2.jpg"],
         "childhood": "nz_childhood.jpg"
       },
       "answers": {
         "1": "Un plat à base de pâtes : car les pâtes c'est la vie.",
         "2": [
-          { "label": "Matrix", "media": "" },
-          { "label": "Big Trouble in Little China", "media": "" },
-          { "label": "Inception", "media": "" }
+          { "label": "Matrix", "media": "matrix" },
+          { "label": "Big Trouble in Little China", "media": "big_trouble_in_little_china" },
+          { "label": "Inception", "media": "inception" }
         ],
         "3": [
-          { "label": "Dark", "media": "" },
-          { "label": "Alias", "media": "" },
-          { "label": "Lost (c'était pas facile de choisir...)", "media": "" }
+          { "label": "Dark", "media": "dark" },
+          { "label": "Alias", "media": "alias" },
+          { "label": "Lost (c'était pas facile de choisir...)", "media": "lost" }
         ],
         "4": "Dans les pires: Zuzu, \"Nick\"",
         "5": "On peut tromper une fois mille personnes, on peut tromper une personne mille fois, mais on ne peut pas tromper mille personnes mille fois -- Émile Gravier",
@@ -330,12 +333,18 @@
           "label": "Je ne souhaite pas dîner avec une célébrité, zéro motivation.",
           "media": ""
         },
-        "8": { "label": "J'en ai pas vraiment de souvenirs, mais ma mère me parle d'un Winnie l'Ourson et d'un Gorille (aucun lien).", "media": "" },
+        "8": {
+          "label": "J'en ai pas vraiment de souvenirs, mais ma mère me parle d'un Winnie l'Ourson et d'un Gorille (aucun lien).",
+          "media": ""
+        },
         "9": "Un chat bien évidemment.",
         "10": "Alors là, aucune idée... Faudrait demander à Julie ou aux autres gens qui me fréquentent",
-        "11": { "label": "L'avantage d'être vieux, c'est que l'on prend du recul, j'ai pas de honte particulière par rapport à mes goûts musicaux 😂", "media": "" },
+        "11": {
+          "label": "L'avantage d'être vieux, c'est que l'on prend du recul, j'ai pas de honte particulière par rapport à mes goûts musicaux 😂",
+          "media": ""
+        },
         "12": { "label": "Earth, Wind and Fire - September", "media": "" },
-        "13": ["nz_sibling.jpg", "nz_sibling2.jpg"],
+        "13": ["nz_sibling.jpg", "nz_sibling-2.jpg"],
         "14": "nz_childhood.jpg"
       }
     },
@@ -351,20 +360,23 @@
       "answers": {
         "1": "Welsh (même si ça serait écoeurant à force)",
         "2": [
-          { "label": "Le fabuleux destin d'Amélie Poulain", "media": "" },
-          { "label": "Un homme idéal", "media": "" },
-          { "label": "Douleur et gloire", "media": "" }
+          {
+            "label": "Le fabuleux destin d'Amélie Poulain",
+            "media": "le_fabuleux_destin_damelie_poulain"
+          },
+          { "label": "Un homme idéal", "media": "un_homme_ideal" },
+          { "label": "Douleur et gloire", "media": "douleur_et_gloire" }
         ],
         "3": [
-          { "label": "Game of thrones", "media": "" },
-          { "label": "Baron noir", "media": "" },
-          { "label": "Power", "media": "" }
+          { "label": "Game of thrones", "media": "game_of_thrones" },
+          { "label": "Baron noir", "media": "baron_noir" },
+          { "label": "Power", "media": "power" }
         ],
         "4": "J'en ai pas",
         "5": "Aimer, ce n'est pas gagner à tous les coups. C'est prendre des risques, faire des paris incertains, connaître la frayeur de perdre sa mise pour mieux savourer le frisson de la doubler. (Philippe Besson)",
         "6": "La mort",
         "7": { "label": "Philippe Besson (écrivain français)", "media": "" },
-        "8": { "label": "un lapin (c'est encore d'actualité, j'ai envoyé la photo)", "media": "" },
+        "8": { "label": "un lapin", "media": "" },
         "9": "Un chat",
         "10": "Les Ris de veau",
         "11": { "label": "Toutes les femmes de ta vie des L5", "media": "" },
@@ -378,23 +390,37 @@
       "name": "François",
       "photos": {
         "profile": "francois_profile.jpg",
-        "doudou": "francois_doudou.jpg",
+        "doudou": "",
         "sibling": ["francois_sibling.jpg"],
         "childhood": "francois_childhood.jpg"
       },
       "answers": {
-        "1": "",
-        "2": [],
-        "3": [],
-        "4": "",
-        "5": "",
-        "6": "",
-        "7": { "label": "", "media": "" },
-        "8": { "label": "", "media": "" },
-        "9": "",
-        "10": "",
-        "11": { "label": "", "media": "" },
-        "12": { "label": "", "media": "" },
+        "1": "francois",
+        "2": [
+          {
+            "label": "francois",
+            "media": ""
+          },
+          { "label": "francois", "media": "" },
+          { "label": "francois", "media": "" }
+        ],
+        "3": [
+          {
+            "label": "francois",
+            "media": ""
+          },
+          { "label": "francois", "media": "" },
+          { "label": "francois", "media": "" }
+        ],
+        "4": "francois",
+        "5": "francois",
+        "6": "francois",
+        "7": { "label": "francois", "media": "" },
+        "8": { "label": "francois", "media": "" },
+        "9": "francois",
+        "10": "francois",
+        "11": { "label": "francois", "media": "" },
+        "12": { "label": "francois", "media": "" },
         "13": ["francois_sibling.jpg"],
         "14": "francois_childhood.jpg"
       }

@@ -1,11 +1,28 @@
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue'
+import { useParticipantsStore } from './stores/participants'
+import { useQuestionsStore } from './stores/questions'
+import { useGameStateStore } from './stores/gameState'
+
+const participantsStore = useParticipantsStore()
+const questionsStore = useQuestionsStore()
+const gameStateStore = useGameStateStore()
+
+onMounted(async () => {
+  // Charger les données au démarrage
+  await Promise.all([participantsStore.loadParticipants(), questionsStore.loadQuestions()])
+
+  // Restaurer l'état du jeu depuis localStorage
+  gameStateStore.loadGameState()
+})
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped></style>
+<style>
+/* Styles globaux déjà importés via main.css */
+</style>

@@ -30,7 +30,7 @@
     },
     {
       "id": "8",
-      "text": "Ton doudou quand tu étais petit ? M'envoyer une photo si possible"
+      "text": "Ton doudou quand tu étais petit ?"
     },
     {
       "id": "9",
@@ -138,7 +138,7 @@
       "photos": {
         "profile": "benoit_profile.jpg",
         "doudou": "benoit_doudou.jpg",
-        "sibling": ["benoit_sibling.jpg"],
+        "sibling": [],
         "childhood": "benoit_childhood.jpg"
       },
       "answers": {
@@ -162,7 +162,7 @@
         "10": "Tremper la mimolette dans la Danette",
         "11": { "label": "Le jerk", "media": "" },
         "12": { "label": "Je t'emmène au vent (Louise Attaque)", "media": "" },
-        "13": ["benoit_sibling.jpg"],
+        "13": [],
         "14": "benoit_childhood.jpg"
       }
     },
@@ -242,7 +242,7 @@
       "name": "Dobbelaere Erwann",
       "photos": {
         "profile": "erwann_profile.jpg",
-        "doudou": "erwann_doudou.jpg",
+        "doudou": "",
         "sibling": ["erwann_sibling.jpg"],
         "childhood": "erwann_childhood.jpg"
       },
@@ -310,8 +310,8 @@
       "name": "NZ",
       "photos": {
         "profile": "nz_profile.jpg",
-        "doudou": "nz_doudou.jpg",
-        "sibling": ["nz_sibling.jpg", "nz_sibling2.jpg"],
+        "doudou": "",
+        "sibling": ["nz_sibling.jpg", "nz_sibling-2.jpg"],
         "childhood": "nz_childhood.jpg"
       },
       "answers": {
@@ -344,7 +344,7 @@
           "media": ""
         },
         "12": { "label": "Earth, Wind and Fire - September", "media": "" },
-        "13": ["nz_sibling.jpg", "nz_sibling2.jpg"],
+        "13": ["nz_sibling.jpg", "nz_sibling-2.jpg"],
         "14": "nz_childhood.jpg"
       }
     },
@@ -387,21 +387,21 @@
       "name": "François",
       "photos": {
         "profile": "francois_profile.jpg",
-        "doudou": "francois_doudou.jpg",
+        "doudou": "",
         "sibling": ["francois_sibling.jpg"],
         "childhood": "francois_childhood.jpg"
       },
       "answers": {
-        "1": "",
+        "1": "francois",
         "2": [],
         "3": [],
-        "4": "",
-        "5": "",
-        "6": "",
+        "4": "francois",
+        "5": "francois",
+        "6": "francois",
         "7": { "label": "", "media": "" },
         "8": { "label": "", "media": "" },
-        "9": "",
-        "10": "",
+        "9": "francois",
+        "10": "francois",
         "11": { "label": "", "media": "" },
         "12": { "label": "", "media": "" },
         "13": ["francois_sibling.jpg"],

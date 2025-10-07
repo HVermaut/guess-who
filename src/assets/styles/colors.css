@@ -1,0 +1,25 @@
+/* Palette de couleurs Guess Who */
+:root {
+  /* Couleurs principales */
+  --color-primary: #ed4c67;
+  --color-secondary: #f79f1f;
+  --color-dark: #303952;
+  --color-success: #c4e538;
+  --color-error: #ea2027;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Couleurs arc-en-ciel pour le bouton */
+  --rainbow-1: #ff6b6b;
+  --rainbow-2: #ffa500;
+  --rainbow-3: #ffd700;
+  --rainbow-4: #4caf50;
+  --rainbow-5: #2196f3;
+  --rainbow-6: #9c27b0;
+
+  /* États des photos */
+  --border-default: var(--color-secondary);
+  --border-selected: var(--color-primary);
+  --border-correct: var(--color-success);
+  --border-incorrect: var(--color-error);
+}

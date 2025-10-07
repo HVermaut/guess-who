@@ -37,68 +37,68 @@ Application web Vue.js 3 pour un jeu d'anniversaire où Julie doit deviner qui a
 
 ## Plan d'implémentation par phases
 
-### Phase 1 : Configuration et structure de base
+### Phase 1 : Configuration et structure de base ✅
 
 1. **Configuration du projet Vue.js 3**
-   - [ ] Configurer les Google Fonts dans `index.html`
-   - [ ] Créer le système de couleurs CSS (variables CSS)
-   - [ ] Configurer Vue Router pour la navigation
-   - [ ] Installer et configurer Pinia pour la gestion d'état
+   - [x] Configurer les Google Fonts dans `index.html`
+   - [x] Créer le système de couleurs CSS (variables CSS)
+   - [x] Configurer Vue Router pour la navigation
+   - [x] Installer et configurer Pinia pour la gestion d'état
 
 2. **Structure des composants Vue**
-   - [ ] `src/components/AppButton.vue` - Bouton avec style arc-en-ciel
-   - [ ] `src/components/ParticipantPhoto.vue` - Photo avec contours colorés
-   - [ ] `src/components/FireworksAnimation.vue` - Animation feux d'artifice
-   - [ ] `src/components/MediaPlayer.vue` - Lecteur MP4 et affichage d'images
+   - [x] `src/components/AppButton.vue` - Bouton avec style arc-en-ciel
+   - [x] `src/components/ParticipantPhoto.vue` - Photo avec contours colorés
+   - [x] `src/components/FireworksAnimation.vue` - Animation feux d'artifice
+   - [x] `src/components/MediaPlayer.vue` - Lecteur MP4 et affichage d'images
 
 3. **Stores Pinia**
-   - [ ] `src/stores/gameState.js` - État du jeu (question actuelle, réponses)
-   - [ ] `src/stores/participants.js` - Données des participants
-   - [ ] `src/stores/questions.js` - Données des questions
+   - [x] `src/stores/gameState.js` - État du jeu (question actuelle, réponses)
+   - [x] `src/stores/participants.js` - Données des participants
+   - [x] `src/stores/questions.js` - Données des questions
 
-### Phase 2 : Écran d'accueil
+### Phase 2 : Écran d'accueil ✅
 
 1. **Page d'accueil** (`src/views/HomeView.vue`)
-   - [ ] Photo principale
-   - [ ] Bouton "Guess Who" 🦄 (600px x 200px, texte 50px)
-   - [ ] Style arc-en-ciel pour le bouton
-   - [ ] Animation de transition vers les questions
+   - [x] Photo principale
+   - [x] Bouton "Guess Who" 🦄 (600px x 200px, texte 50px)
+   - [x] Style arc-en-ciel pour le bouton
+   - [x] Animation de transition vers les questions
 
 2. **Animation de transition**
-   - [ ] Feux d'artifice CSS (3 secondes)
-   - [ ] Navigation automatique vers la première question
+   - [x] Feux d'artifice CSS (3 secondes)
+   - [x] Navigation automatique vers la première question
 
-### Phase 3 : Système de questions
+### Phase 3 : Système de questions ✅
 
 1. **Layout des questions** (`src/views/QuestionView.vue`)
-   - [ ] Affichage du numéro de question
-   - [ ] Affichage de la question
-   - [ ] Affichage d'une réponse à la fois
-   - [ ] Grille des photos des participants
+   - [x] Affichage du numéro de question
+   - [x] Affichage de la question
+   - [x] Affichage d'une réponse à la fois
+   - [x] Grille des photos des participants
 
 2. **Logique d'attribution**
-   - [ ] Sélection d'un participant pour une réponse
-   - [ ] Changement visuel du contour (orange → rouge puis persistance)
-   - [ ] Possibilité de modifier l'attribution
-   - [ ] Navigation vers la réponse suivante
+   - [x] Sélection d'un participant pour une réponse
+   - [x] Changement visuel du contour (orange → rouge puis persistance)
+   - [x] Possibilité de modifier l'attribution
+   - [x] Navigation vers la réponse suivante
 
 3. **Gestion des questions spéciales**
-   - [ ] Questions films/séries : affichage d'images
-   - [ ] Questions chansons : intégration fichier MP4
-   - [ ] Interface adaptée pour chaque type
+   - [x] Questions films/séries : affichage d'images
+   - [x] Questions chansons : intégration fichier MP4
+   - [x] Interface adaptée pour chaque type
 
-### Phase 4 : Validation et correction
+### Phase 4 : Validation et correction ✅
 
 1. **Écran de validation** (`src/views/ValidationView.vue`)
-   - [ ] Bouton "Vérifier les réponses"
-   - [ ] Affichage des résultats (vert/rouge)
-   - [ ] Affichage des bonnes réponses à côté
-   - [ ] Bouton "Question suivante"
+   - [x] Bouton "Vérifier les réponses"
+   - [x] Affichage des résultats (vert/rouge)
+   - [x] Affichage des bonnes réponses à côté
+   - [x] Bouton "Question suivante"
 
 2. **Logique de scoring**
-   - [ ] Comparaison avec les vraies réponses
-   - [ ] Calcul des scores par participant
-   - [ ] Sauvegarde des résultats
+   - [x] Comparaison avec les vraies réponses
+   - [x] Calcul des scores par participant
+   - [x] Sauvegarde des résultats
 
 ### Phase 5 : Écran de résultats finaux
 
